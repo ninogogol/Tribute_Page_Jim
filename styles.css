@@ -82,6 +82,7 @@ a:hover {
     .history {
         margin-bottom: 5%;
         font-size: 15px;
+        width: 85%;
     }
     footer {
         display: flex;
