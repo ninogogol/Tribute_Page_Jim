@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    background-color: #ececec;
+    color: #142d4c;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 2%;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-caption {
+    margin: 2%;
+    font-size: large;
+    line-height: 1.8;
+    width: 66%;
+    text-align: center;
+}
+
+.quote {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#tribute-info {
+    text-align: center;
+    margin: 2%;
+    font-size: 30px;
+}
+
+.history-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history {
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+footer {
+    margin: 4%;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+a {
+    color: #142d4c;
+
+}
+a:hover {
+    color: #9fd3c7;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #img-caption {
+        font-size: smaller;
+    }
+    #tribute-info {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    .history {
+        margin-bottom: 5%;
+        font-size: 15px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+    .p-end {
+        width: 70%;
+    }
+    
+}
